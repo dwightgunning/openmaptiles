@@ -8,60 +8,60 @@ def_poi_mapping_aerialway: &poi_mapping_aerialway
 
 # amenity values , see http://taginfo.openstreetmap.org/keys/amenity#values
 def_poi_mapping_amenity: &poi_mapping_amenity
-  - arts_centre
-  - atm
-  - bank
-  - bar
+  # - arts_centre
+  # - atm
+  # - bank
+  # - bar
   - bbq
   - bicycle_parking
-  - bicycle_rental
-  - biergarten
+  # - bicycle_rental
+  # - biergarten
   - bus_station
-  - cafe
-  - cinema
-  - clinic
+  # - cafe
+  # - cinema
+  # - clinic
   - college
   - community_centre
   - courthouse
-  - dentist
-  - doctors
+  # - dentist
+  # - doctors
   - drinking_water
-  - fast_food
+  # - fast_food
   - ferry_terminal
   - fire_station
-  - food_court
-  - fuel
+  # - food_court
+  # - fuel
   - grave_yard
   - hospital
-  - ice_cream
-  - kindergarten
+  # - ice_cream
+  # - kindergarten
   - library
   - marketplace
-  - motorcycle_parking
-  - nightclub
-  - nursing_home
-  - parking
-  - pharmacy
-  - place_of_worship
+  # - motorcycle_parking
+  # - nightclub
+  # - nursing_home
+  # - parking
+  # - pharmacy
+  # - place_of_worship
   - police
-  - parcel_locker
+  # - parcel_locker
   - post_box
   - post_office
-  - prison
-  - pub
+  # - prison
+  # - pub
   - public_building
   - recycling
-  - restaurant
+  # - restaurant
   - school
   - shelter
-  - swimming_pool
-  - taxi
+  # - swimming_pool
+  # - taxi
   - telephone
-  - theatre
+  # - theatre
   - toilets
   - townhall
   - university
-  - veterinary
+  # - veterinary
   - waste_basket
 
 # barrier values , see http://taginfo.openstreetmap.org/keys/barrier#values
@@ -76,8 +76,8 @@ def_poi_mapping_barrier: &poi_mapping_barrier
   - toll_booth
 
 # building values , see http://taginfo.openstreetmap.org/keys/building#values
-def_poi_mapping_building: &poi_mapping_building
-  - dormitory
+# def_poi_mapping_building: &poi_mapping_building
+#   - dormitory
 
 # highway values , see http://taginfo.openstreetmap.org/keys/highway#values
 def_poi_mapping_highway: &poi_mapping_highway
@@ -100,21 +100,21 @@ def_poi_mapping_landuse: &poi_mapping_landuse
 # leisure values , see http://taginfo.openstreetmap.org/keys/leisure#values
 def_poi_mapping_leisure: &poi_mapping_leisure
   - dog_park
-  - escape_game
+  # - escape_game
   - garden
-  - golf_course
-  - ice_rink
-  - hackerspace
+  # - golf_course
+  # - ice_rink
+  # - hackerspace
   - marina
-  - miniature_golf
+  # - miniature_golf
   - park
-  - pitch
+  # - pitch
   - playground
-  - sports_centre
-  - stadium
-  - swimming_area
-  - swimming_pool
-  - water_park
+  # - sports_centre
+  # - stadium
+  # - swimming_area
+  # - swimming_pool
+  # - water_park
 
 # office values , see http://taginfo.openstreetmap.org/keys/office#values
 def_poi_mapping_office: &poi_mapping_office
@@ -129,195 +129,195 @@ def_poi_mapping_railway: &poi_mapping_railway
   - tram_stop
 
 # shop values , see http://taginfo.openstreetmap.org/keys/shop#values
-def_poi_mapping_shop: &poi_mapping_shop
-  - accessories
-  - alcohol
-  - antiques
-  - art
-  - bag
-  - bakery
-  - beauty
-  - bed
-  - beverages
-  - bicycle
-  - books
-  - boutique
-  - butcher
-  - camera
-  - car
-  - car_repair
-  - car_parts
-  - carpet
-  - charity
-  - chemist
-  - chocolate
-  - clothes
-  - coffee
-  - computer
-  - confectionery
-  - convenience
-  - copyshop
-  - cosmetics
-  - deli
-  - delicatessen
-  - department_store
-  - doityourself
-  - dry_cleaning
-  - electronics
-  - erotic
-  - fabric
-  - florist
-  - frozen_food
-  - furniture
-  - garden_centre
-  - general
-  - gift
-  - greengrocer
-  - hairdresser
-  - hardware
-  - hearing_aids
-  - hifi
-  - ice_cream
-  - interior_decoration
-  - jewelry
-  - kiosk
-  - lamps
-  - laundry
-  - locksmith
-  - mall
-  - massage
-  - mobile_phone
-  - motorcycle
-  - music
-  - musical_instrument
-  - newsagent
-  - optician
-  - outdoor
-  - paint
-  - perfume
-  - perfumery
-  - pet
-  - photo
-  - second_hand
-  - shoes
-  - sports
-  - stationery
-  - supermarket
-  - tailor
-  - tattoo
-  - ticket
-  - tobacco
-  - toys
-  - travel_agency
-  - video
-  - video_games
-  - watches
-  - weapons
-  - wholesale
-  - wine
+# def_poi_mapping_shop: &poi_mapping_shop
+#   - accessories
+#   - alcohol
+#   - antiques
+#   - art
+#   - bag
+#   - bakery
+#   - beauty
+#   - bed
+#   - beverages
+#   - bicycle
+#   - books
+#   - boutique
+#   - butcher
+#   - camera
+#   - car
+#   - car_repair
+#   - car_parts
+#   - carpet
+#   - charity
+#   - chemist
+#   - chocolate
+#   - clothes
+#   - coffee
+#   - computer
+#   - confectionery
+#   - convenience
+#   - copyshop
+#   - cosmetics
+#   - deli
+#   - delicatessen
+#   - department_store
+#   - doityourself
+#   - dry_cleaning
+#   - electronics
+#   - erotic
+#   - fabric
+#   - florist
+#   - frozen_food
+#   - furniture
+#   - garden_centre
+#   - general
+#   - gift
+#   - greengrocer
+#   - hairdresser
+#   - hardware
+#   - hearing_aids
+#   - hifi
+#   - ice_cream
+#   - interior_decoration
+#   - jewelry
+#   - kiosk
+#   - lamps
+#   - laundry
+#   - locksmith
+#   - mall
+#   - massage
+#   - mobile_phone
+#   - motorcycle
+#   - music
+#   - musical_instrument
+#   - newsagent
+#   - optician
+#   - outdoor
+#   - paint
+#   - perfume
+#   - perfumery
+#   - pet
+#   - photo
+#   - second_hand
+#   - shoes
+#   - sports
+#   - stationery
+#   - supermarket
+#   - tailor
+#   - tattoo
+#   - ticket
+#   - tobacco
+#   - toys
+#   - travel_agency
+#   - video
+#   - video_games
+#   - watches
+#   - weapons
+#   - wholesale
+#   - wine
 
 # sport values , see http://taginfo.openstreetmap.org/keys/sport#values
-def_poi_mapping_sport: &poi_mapping_sport
-  - american_football
-  - archery
-  - athletics
-  - australian_football
-  - badminton
-  - baseball
-  - basketball
-  - beachvolleyball
-  - billiards
-  - bmx
-  - boules
-  - bowls
-  - boxing
-  - canadian_football
-  - canoe
-  - chess
-  - climbing
-  - climbing_adventure
-  - cricket
-  - cricket_nets
-  - croquet
-  - curling
-  - cycling
-  - disc_golf
-  - diving
-  - dog_racing
-  - equestrian
-  - fatsal
-  - field_hockey
-  - free_flying
-  - gaelic_games
-  - golf
-  - gymnastics
-  - handball
-  - hockey
-  - horse_racing
-  - horseshoes
-  - ice_hockey
-  - ice_stock
-  - judo
-  - karting
-  - korfball
-  - long_jump
-  - model_aerodrome
-  - motocross
-  - motor
-  - multi
-  - netball
-  - orienteering
-  - paddle_tennis
-  - paintball
-  - paragliding
-  - pelota
-  - racquet
-  - rc_car
-  - rowing
-  - rugby
-  - rugby_league
-  - rugby_union
-  - running
-  - sailing
-  - scuba_diving
-  - shooting
-  - shooting_range
-  - skateboard
-  - skating
-  - skiing
-  - soccer
-  - surfing
-  - swimming
-  - table_soccer
-  - table_tennis
-  - team_handball
-  - tennis
-  - toboggan
-  - volleyball
-  - water_ski
-  - yoga
+# def_poi_mapping_sport: &poi_mapping_sport
+#   - american_football
+#   - archery
+#   - athletics
+#   - australian_football
+#   - badminton
+#   - baseball
+#   - basketball
+#   - beachvolleyball
+#   - billiards
+#   - bmx
+#   - boules
+#   - bowls
+#   - boxing
+#   - canadian_football
+#   - canoe
+#   - chess
+#   - climbing
+#   - climbing_adventure
+#   - cricket
+#   - cricket_nets
+#   - croquet
+#   - curling
+#   - cycling
+#   - disc_golf
+#   - diving
+#   - dog_racing
+#   - equestrian
+#   - fatsal
+#   - field_hockey
+#   - free_flying
+#   - gaelic_games
+#   - golf
+#   - gymnastics
+#   - handball
+#   - hockey
+#   - horse_racing
+#   - horseshoes
+#   - ice_hockey
+#   - ice_stock
+#   - judo
+#   - karting
+#   - korfball
+#   - long_jump
+#   - model_aerodrome
+#   - motocross
+#   - motor
+#   - multi
+#   - netball
+#   - orienteering
+#   - paddle_tennis
+#   - paintball
+#   - paragliding
+#   - pelota
+#   - racquet
+#   - rc_car
+#   - rowing
+#   - rugby
+#   - rugby_league
+#   - rugby_union
+#   - running
+#   - sailing
+#   - scuba_diving
+#   - shooting
+#   - shooting_range
+#   - skateboard
+#   - skating
+#   - skiing
+#   - soccer
+#   - surfing
+#   - swimming
+#   - table_soccer
+#   - table_tennis
+#   - team_handball
+#   - tennis
+#   - toboggan
+#   - volleyball
+#   - water_ski
+#   - yoga
 
 # tourism values , see http://taginfo.openstreetmap.org/keys/tourism#values
 def_poi_mapping_tourism: &poi_mapping_tourism
   - alpine_hut
-  - aquarium
-  - artwork
-  - attraction
-  - bed_and_breakfast
+  # - aquarium
+  # - artwork
+  # - attraction
+  # - bed_and_breakfast
   - camp_site
-  - caravan_site
-  - chalet
-  - gallery
-  - guest_house
-  - hostel
-  - hotel
+  # - caravan_site
+  # - chalet
+  # - gallery
+  # - guest_house
+  # - hostel
+  # - hotel
   - information
-  - motel
-  - museum
+  # - motel
+  # - museum
   - picnic_site
-  - theme_park
+  # - theme_park
   - viewpoint
-  - zoo
+  # - zoo
 
 # waterway values , see http://taginfo.openstreetmap.org/keys/waterway#values
 def_poi_mapping_waterway: &poi_mapping_waterway
@@ -389,15 +389,15 @@ def_poi_mapping: &poi_mapping
   aerialway: *poi_mapping_aerialway
   amenity: *poi_mapping_amenity
   barrier: *poi_mapping_barrier
-  building: *poi_mapping_building
+  # building: *poi_mapping_building
   highway: *poi_mapping_highway
   historic: *poi_mapping_historic
   landuse: *poi_mapping_landuse
   leisure: *poi_mapping_leisure
   office: *poi_mapping_office
   railway: *poi_mapping_railway
-  shop: *poi_mapping_shop
-  sport: *poi_mapping_sport
+  # shop: *poi_mapping_shop
+  # sport: *poi_mapping_sport
   tourism: *poi_mapping_tourism
   waterway: *poi_mapping_waterway
 
