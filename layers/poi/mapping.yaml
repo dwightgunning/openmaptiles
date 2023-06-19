@@ -1,4 +1,3 @@
-
 # imposm3 mapping file for https://github.com/osm2vectortiles/imposm3
 # Warning: this is not the official imposm3
 
@@ -30,17 +29,17 @@ def_poi_mapping_amenity: &poi_mapping_amenity
   - ferry_terminal
   - fire_station
   # - food_court
-  # - fuel
+  - fuel
   - grave_yard
   - hospital
   # - ice_cream
   # - kindergarten
   - library
   - marketplace
-  # - motorcycle_parking
+  - motorcycle_parking
   # - nightclub
   # - nursing_home
-  # - parking
+  - parking
   # - pharmacy
   # - place_of_worship
   - police
